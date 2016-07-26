@@ -1,0 +1,9 @@
+# http://fullcalendar.io
+
+rails new calendar-test
+rails g scaffold events title:string start:date end:date
+rake db:migrate
+rake db:seed
+
+
+
